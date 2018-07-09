@@ -562,7 +562,7 @@ a:hover { text-decoration: none }
 
 .categories {
   margin-top: 50px;
-  border: 1px solid #96969696;
+  border: 1px solid #f2f2f2;
   border-radius: 5px;
   padding: 40px 15px;
 }
@@ -659,3 +659,44 @@ input[type="email"] {
   color: #000;
 }
 /*blog-detail-end*/
+
+
+/*contact-stard*/
+
+.contact {
+  margin-top: 60px;
+}
+.logo-text a {
+  float: left;
+  font-size: 30px;
+  color: #404040;
+  border: 1px solid #e0e0e0;
+  padding: 10px 12px 10px 12px;
+  border-radius: 50%;
+  line-height: 1;
+}
+.text {
+  padding-left: 25%;
+}
+.text h5 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #454545;
+}
+.text p {
+  color: #707070;
+  font-size: 20px;
+}
+.contacts .leave-comment {
+  border: none;
+}
+.contacts .lev-comment-one {
+  border: none;
+}
+.contacts .name-mail {
+  margin-top: 0;
+}
+.contacts .lev-comment-one textarea {
+  margin-bottom: 40px;
+}
+/*contact-end*/
