@@ -23,6 +23,16 @@
              });
             });
 
+
+            $(".treger-menu").on("click", function(){
+                $(".offe-canvar-menu, .canvar-menu-overlay").addClass("active");
+                return false;
+            })
+    
+            $(".menu-close, .canvar-menu-overlay").on("click", function(){
+                $(".offe-canvar-menu, .canvar-menu-overlay").removeClass("active");
+    });
+
         
 
 

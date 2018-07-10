@@ -157,6 +157,72 @@ a:hover { text-decoration: none }
   width: 100%;
 }
 /*header-menu-end*/
+a.treger-menu {
+  display: none;
+}
+.offe-canvar-menu {
+    width:  250px;
+    height: 100%;
+    position:  fixed;
+    background-color:  #333;
+    z-index:  99;
+    padding: 25px;
+    right: 0;
+    margin-right: -250px;
+    transition: .3s;
+}
+
+.offe-canvar-menu.active{
+    margin-right: 0;
+}
+.offe-canvar-menu ul {
+    padding:  0;
+    margin:  0;
+    list-style:  none;
+}
+
+
+.offe-canvar-menu ul li a {
+    color:  #fff;
+    display: block;
+    padding:  11px 0px;
+    border-bottom:  1px solid #444;
+    text-transform: uppercase;
+}
+
+.menu-close {
+    position: absolute;
+    color: #fff;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 25px;
+    transition: .5s;
+}
+
+.canvar-menu-overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    z-index: -1;
+    opacity: 0;
+    transition: .5s;
+    float: right;
+}
+
+.canvar-menu-overlay.active{
+    opacity: .6;
+    z-index: 98;
+}
+.treger-menu span {
+    height: 2px;
+    width: 30px;
+    background-color: #333;
+    display: block;
+    margin-top: 8px;
+    cursor: pointer;
+}
 
 
 /*home-stard*/
