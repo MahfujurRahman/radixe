@@ -90,7 +90,7 @@ a:hover { text-decoration: none }
 .header-menu li ul {
   position: absolute;
   top: 40px;
-  left: 44%;
+  left: 64%;
   width: 170px;
   background-color: #303133;
   text-align: left;
@@ -189,44 +189,44 @@ a:hover { text-decoration: none }
     background-repeat: no-repeat;
     background-color: #f5f5f5;
 }
-.product-bg-1{
+.home .product-bg-1{
     background-image: url(../img/home/watch.png)
 }
-.product-bg-2{
+.home .product-bg-2{
     background-image: url(../img/home/a-alphabet.png)
 }
-.product-bg-3{
+.home .product-bg-3{
     background-image: url(../img/home/chear.png)
 }
-.product-bg-4{
+.home .product-bg-4{
     background-image: url(../img/home/biscute.png)
 }
-.product-bg-5{
+.home .product-bg-5{
     background-image: url(../img/home/book.png)
 }
-.product-bg-6{
+.home .product-bg-6{
     background-image: url(../img/home/white-bage.png)
 }
-.product-bg-7{
+.home .product-bg-7{
     background-image: url(../img/home/chocolet.png)
 }
-.product-bg-8{
+.home .product-bg-8{
     background-image: url(../img/home/flower.png)
 }
-.product-bg-9{
+.home .product-bg-9{
     background-image: url(../img/home/littel-chear.png)
 }
-.home .isotope-filter {
+.isotope-filter {
     padding: 0;
     list-style: none;
     margin-bottom: 35px;
   }
-  .home .isotope-filter li {
+  .isotope-filter li {
     display: inline-block;
     margin: 20px;
     text-align: center;
   }
-  .home .isotope-filter li a {
+  .isotope-filter li a {
     text-transform: uppercase;
     font-size: 12px;
     line-height: 13px;
@@ -236,7 +236,7 @@ a:hover { text-decoration: none }
     padding: 7px 10px;
     transition: .3s;
   }
-  .home .isotope-filter li a:hover {
+  .isotope-filter li a:hover {
     background-color: #f5f5f5;
     border-radius: 15px;
   }
@@ -254,7 +254,7 @@ a:hover { text-decoration: none }
   .home .product-list .col-md-4:nth-child(7) .singel-product{
     height: 360px;
   }
-  .home .product-hover {
+  .product-hover {
     position: relative;
     z-index: 1;
     display: flex;
@@ -263,7 +263,7 @@ a:hover { text-decoration: none }
     height: 100%;
     opacity: 0;
   }
-  .home .product-hover:before {
+  .product-hover:before {
     position: absolute;
     background-color: #fff;
     content: "";
@@ -273,7 +273,7 @@ a:hover { text-decoration: none }
     z-index: -1;
     transition: .3s;
   }
-  .home .product-hover h3 {
+  .product-hover h3 {
     text-transform: uppercase;
     font-size: 16px;
     line-height: 20px;
@@ -284,7 +284,7 @@ a:hover { text-decoration: none }
     padding-top: 30px;
     text-align: center;
   }
-  .home .product-hover h3 span {
+  .product-hover h3 span {
     font-size: 80%;
     padding-top: 30px;
     font-weight: normal;
@@ -292,26 +292,26 @@ a:hover { text-decoration: none }
     text-transform: none;
     text-align: center;
 }
-.home .singel-product:hover .product-hover::before {
+.singel-product:hover .product-hover::before {
     opacity: .9;
 }
-.home .singel-product:hover .product-hover {
+.singel-product:hover .product-hover {
     opacity: .8;
     transform: scale(.8);
 }
 
-.home .isotope-filter li.active{
+.isotope-filter li.active{
   background-color: #f5f5f5;
   border-radius: 50px;
   padding: 7px 10px;
 }
-.home .singel-product:hover .product-hover h3 {
+.singel-product:hover .product-hover h3 {
   padding: 0;
 }
-.home .singel-product:hover .product-hover h3 span {
+.singel-product:hover .product-hover h3 span {
   padding: 5px;
 }
-.home .product-list{
+.product-list{
   transition-duration: .5s;
 }
 /*isotope*/
@@ -719,3 +719,37 @@ input[type="email"] {
   line-height: 2;
 }
 /*protfulio-details-end*/
+
+
+/*columns-one-stard*/
+.columms-one .product-bg-1{
+  background-image: url(../img/columms/mobile.png)
+}
+.columms-one .product-bg-2{
+  background-image: url(../img/columms/mug.png)
+}
+.columms-one .product-bg-3{
+  background-image: url(../img/columms/white-bage.png)
+}
+.columms-one .product-bg-4{
+  background-image: url(../img/columms/book.png)
+}
+.columms-one .product-bg-5{
+  background-image: url(../img/columms/chear.png)
+}
+.columms-one .product-bg-6{
+  background-image: url(../img/columms/a-alphabet.png)
+}
+.columms-one .product-list .col-md-6:nth-child(1) .singel-product,
+.columms-one .product-list .col-md-6:nth-child(4) .singel-product{
+    height: 270px;
+  }
+  .columms-one .product-list .col-md-6:nth-child(2) .singel-product,
+  .columms-one .product-list .col-md-6:nth-child(3) .singel-product{
+    height: 500px;
+  }
+  .columms-one .product-list .col-md-6:nth-child(5) .singel-product,
+  .columms-one .product-list .col-md-6:nth-child(6) .singel-product{
+    height: 370px;
+  }
+/*columns-one-end*/
