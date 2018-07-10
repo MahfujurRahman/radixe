@@ -189,31 +189,37 @@ a:hover { text-decoration: none }
     background-repeat: no-repeat;
     background-color: #f5f5f5;
 }
-.home .product-bg-1{
+.home .product-bg-1, .columms-tow .product-bg-1{
     background-image: url(../img/home/watch.png)
 }
-.home .product-bg-2{
+.home .product-bg-2, .columms-tow .product-bg-2{
     background-image: url(../img/home/a-alphabet.png)
 }
-.home .product-bg-3{
+.home .product-bg-3, .columms-tow .product-bg-3{
     background-image: url(../img/home/chear.png)
 }
-.home .product-bg-4{
+.home .product-bg-4, .columms-tow .product-bg-4{
     background-image: url(../img/home/biscute.png)
 }
-.home .product-bg-5{
+.home .product-bg-5, .columms-tow .product-bg-5{
     background-image: url(../img/home/book.png)
 }
 .home .product-bg-6{
     background-image: url(../img/home/white-bage.png)
 }
+.columms-tow .product-bg-6{
+  background-image: url(../img/columms2/white-table.png)
+}
 .home .product-bg-7{
     background-image: url(../img/home/chocolet.png)
 }
-.home .product-bg-8{
+.columms-tow .product-bg-7{
+  background-image: url(../img/columms2/mug.png)
+}
+.home .product-bg-8, .columms-tow .product-bg-8{
     background-image: url(../img/home/flower.png)
 }
-.home .product-bg-9{
+.home .product-bg-9, .columms-tow .product-bg-9{
     background-image: url(../img/home/littel-chear.png)
 }
 .isotope-filter {
@@ -245,13 +251,22 @@ a:hover { text-decoration: none }
   .home .product-list .col-md-4:nth-child(5) .singel-product,
   .home .product-list .col-md-4:nth-child(6) .singel-product,
   .home .product-list .col-md-4:nth-child(9) .singel-product,
-  .home .product-list .col-md-4:nth-child(8) .singel-product{
+  .home .product-list .col-md-4:nth-child(8) .singel-product,
+  .columms-tow .product-list .col-md-4:nth-child(1) .singel-product,
+  .columms-tow .product-list .col-md-4:nth-child(3) .singel-product,
+  .columms-tow .product-list .col-md-4:nth-child(5) .singel-product,
+  .columms-tow .product-list .col-md-4:nth-child(6) .singel-product,
+  .columms-tow .product-list .col-md-4:nth-child(9) .singel-product,
+  .columms-tow .product-list .col-md-4:nth-child(8) .singel-product{
       height: 290px;
   }
   
   .home .product-list .col-md-4:nth-child(2) .singel-product,
   .home .product-list .col-md-4:nth-child(4) .singel-product,
-  .home .product-list .col-md-4:nth-child(7) .singel-product{
+  .home .product-list .col-md-4:nth-child(7) .singel-product,
+  .columms-tow .product-list .col-md-4:nth-child(2) .singel-product,
+  .columms-tow .product-list .col-md-4:nth-child(4) .singel-product,
+  .columms-tow .product-list .col-md-4:nth-child(7) .singel-product{
     height: 360px;
   }
   .product-hover {
@@ -275,7 +290,7 @@ a:hover { text-decoration: none }
   }
   .product-hover h3 {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 20px;
     letter-spacing: 3px;
     font-weight: 600;
@@ -285,7 +300,6 @@ a:hover { text-decoration: none }
     text-align: center;
   }
   .product-hover h3 span {
-    font-size: 80%;
     padding-top: 30px;
     font-weight: normal;
     transition: .5s;
@@ -321,6 +335,7 @@ a:hover { text-decoration: none }
   font-size: 25px;
   font-weight: 400;
   margin-top: 35px;
+  margin-bottom: 40px;
 }
 .isotpe-btt a {
   color: #404040;
@@ -444,6 +459,7 @@ a:hover { text-decoration: none }
 .details {
   border: 1px solid #f2f2f2;
   border-radius: 5px;
+  margin-bottom: 60px;
 }
 .blog-hero {
   margin-top: 50px;
@@ -753,3 +769,16 @@ input[type="email"] {
     height: 370px;
   }
 /*columns-one-end*/
+/*blog-list-stard*/
+.detail-btt:hover {
+  color: #000;
+}
+.detail-btt {
+  margin-left: 30px;
+  display: block;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #454545;
+  padding-bottom: 30px;
+}
+/*blog-list-end*/
