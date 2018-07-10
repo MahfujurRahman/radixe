@@ -461,15 +461,15 @@ a:hover { text-decoration: none }
   float: left;
   text-transform: uppercase;
   color: #969696;
-  padding-left: 15px;
-  font-size: 15px;
+  padding-right: 20px;
+  font-size: 16px;
 }
 .after {
   position: relative;
 }
 .after:after {
   position: absolute;
-  right: -8px;
+  right: 7px;
   top: 2px;
   height: 86%;
   width: 2px;
@@ -700,3 +700,22 @@ input[type="email"] {
   margin-bottom: 40px;
 }
 /*contact-end*/
+
+/*protfulio-details-stard*/
+.protfulio-details .details {
+  border: none;
+}
+.protfulio-details .date {
+  padding: 0;
+  margin-top: 40px;
+}
+.protfulio-details .details h2 {
+  padding: 0;
+  font-size: 28px;
+}
+.details-pra {
+  padding-top: 25px;
+  padding-bottom: 60px;
+  line-height: 2;
+}
+/*protfulio-details-end*/
